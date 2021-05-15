@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('./inputs.css');
+
+html, body {
+    background-color: #f5f5f5;
+    color: rgb(26, 26, 26);
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+a {
+    color:#00aa44;
+}
+
+div.block {
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+div.block > * {
+    display: flexbox;
+    margin: 1em;
+    align-self: center;
+}

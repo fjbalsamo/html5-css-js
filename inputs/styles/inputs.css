@@ -1,0 +1,57 @@
+
+
+input {
+    width: 100%;
+    border: solid 2px red;
+    border-radius: 8px;
+    outline: none;
+    padding: 15px 0 15px 3px;
+
+}
+
+div.input-group {
+    padding: 10px;
+    margin: 8px;
+}
+
+label.lbl {
+    padding-bottom: 8px;
+}
+
+
+form.block {
+    max-width: 25%;
+    margin: auto;
+}
+
+form.in-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button.primary {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px 15px 0 15px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+div.explicacion{
+    border: solid 5px green;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+}

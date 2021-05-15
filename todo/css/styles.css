@@ -1,0 +1,12 @@
+
+td.task {
+  text-align: justify;
+  text-transform: uppercase;
+}
+td.task-done {
+    text-decoration-line: line-through;
+}
+
+header {
+  background-color: burlywood;
+}

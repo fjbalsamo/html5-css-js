@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />    
+    <title>Login</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="loginForm" class="in-line" >
+        <div class="input-group">
+          <label for="correo" class="lbl">Email</label>
+          <input
+            name="correo"
+            type="email"
+            id="correo"
+            placeholder="ingrese su email"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="clave" class="lbl">Password</label>
+          <input
+            name="clave"
+            type="password"
+            id="clave"
+            placeholder="ingrese su clave"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <button type="submit" class="primary">Login</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- <div class="explicacion"></div> -->
+  </body>
+  <script src="./js/inputs.js"></script>
+</html>
