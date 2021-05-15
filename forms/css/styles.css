@@ -1,0 +1,15 @@
+html, body {
+    background-color: #282c34;
+}
+
+div.border-none {
+    border-radius: 0 !important;
+}
+
+.dark {
+    color: whitesmoke;
+}
+
+table thead th {
+    color: whitesmoke;
+}
