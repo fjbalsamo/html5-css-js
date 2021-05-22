@@ -10,6 +10,6 @@ div.border-none {
     color: whitesmoke;
 }
 
-table thead th {
+table th, td {
     color: whitesmoke;
 }
