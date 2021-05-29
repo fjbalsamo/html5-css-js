@@ -59,7 +59,18 @@
               />
             </div>
             <div class="form-group text-right">
-              <button class="btn btn-warning" type="reset">Limpiar</button>
+              <button
+                class="btn btn-danger float-left"
+                type="button"
+                id="deleteBtn"
+                style="display: none"
+                onclick="deletePerson()"
+              >
+                Eliminar
+              </button>
+              <button class="btn btn-warning" type="button" id="clearBtn">
+                Limpiar
+              </button>
               <button class="btn btn-info" type="submit">Guardar</button>
             </div>
           </form>
@@ -81,7 +92,6 @@
         </div>
       </div>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
