@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Simpson';
+    src: url('../fonts/Simpsonfont.otf');
+}
+
+html, body {
+    font-family: 'Simpson';
+}
